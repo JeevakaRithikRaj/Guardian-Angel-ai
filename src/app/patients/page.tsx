@@ -5,6 +5,7 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { patient } from '@/lib/data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Badge } from '@/components/ui/badge';
+import Link from 'next/link';
 
 export default function PatientsPage() {
   const patientAvatar = PlaceHolderImages.find(p => p.id === patient.avatarId);
@@ -47,7 +48,9 @@ export default function PatientsPage() {
                         <span className="text-muted-foreground">Last alert</span>
                         <span>2 days ago</span>
                     </div>
-                    <Button variant="outline" className="w-full mt-4">View Dashboard</Button>
+                    <Button asChild variant="outline" className="w-full mt-4">
+                        <Link href="/">View Dashboard</Link>
+                    </Button>
                 </div>
             </CardContent>
           </Card>

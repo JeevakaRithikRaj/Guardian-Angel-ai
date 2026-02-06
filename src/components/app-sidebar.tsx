@@ -11,7 +11,7 @@ import {
 } from '@/components/ui/sidebar';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Button } from './ui/button';
-import { Home, Settings, Users, HeartPulse, LogOut } from 'lucide-react';
+import { Home, Settings, Users, LogOut, ShieldCheck } from 'lucide-react';
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { usePathname } from 'next/navigation';
@@ -24,7 +24,7 @@ export function AppSidebar() {
     <Sidebar>
       <SidebarHeader>
         <div className="flex items-center gap-2">
-          <HeartPulse className="text-primary h-8 w-8" />
+          <ShieldCheck className="text-primary h-8 w-8" />
           <h1 className="font-headline text-lg font-semibold">Guardian Angel</h1>
         </div>
       </SidebarHeader>
