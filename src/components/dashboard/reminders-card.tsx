@@ -1,13 +1,13 @@
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Checkbox } from '@/components/ui/checkbox';
 import { ScrollArea } from '@/components/ui/scroll-area';
-import { Bell, Pill, Droplet, Footsteps } from 'lucide-react';
+import { Bell, Pill, Droplet, Footprints } from 'lucide-react';
 import type { Reminder } from '@/lib/types';
 
 function getIcon(medication: string) {
   const lowerMed = medication.toLowerCase();
   if (lowerMed.includes('water')) return <Droplet className="h-5 w-5 text-blue-400" />;
-  if (lowerMed.includes('walk')) return <Footsteps className="h-5 w-5 text-green-400" />;
+  if (lowerMed.includes('walk')) return <Footprints className="h-5 w-5 text-green-400" />;
   return <Pill className="h-5 w-5 text-red-400" />;
 }
 

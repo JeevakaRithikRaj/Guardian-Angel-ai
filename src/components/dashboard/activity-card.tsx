@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import { Footsteps, BedDouble } from 'lucide-react';
+import { Footprints, BedDouble } from 'lucide-react';
 import type { Vitals } from '@/lib/types';
 import { Progress } from '@/components/ui/progress';
 
@@ -16,7 +16,7 @@ export function ActivityCard({ vitals }: { vitals: Vitals }) {
       <Card>
         <CardHeader>
           <div className="flex items-center gap-2">
-            <Footsteps className="h-6 w-6 text-primary" />
+            <Footprints className="h-6 w-6 text-primary" />
             <CardTitle className="font-headline">Daily Steps</CardTitle>
           </div>
            <CardDescription>Steps taken today vs. daily goal</CardDescription>
