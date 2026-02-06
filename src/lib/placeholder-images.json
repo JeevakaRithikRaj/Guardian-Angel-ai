@@ -23,6 +23,36 @@
       "description": "Avatar for a doctor contact.",
       "imageUrl": "https://images.unsplash.com/photo-1622253692010-333f2da60710?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkb2N0b3J8ZW58MHx8fHwxNzcwMzEyODI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "doctor"
+    },
+    {
+      "id": "bot-avatar",
+      "description": "Avatar for the friendly AI companion bot.",
+      "imageUrl": "https://images.unsplash.com/photo-1767716134849-5e5abb7bf59b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmcmllbmRseSUyMHJvYm90fGVufDB8fHx8MTc3MDM0NTM3NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "friendly robot"
+    },
+    {
+      "id": "pill-lisinopril",
+      "description": "Image of a Lisinopril pill.",
+      "imageUrl": "https://images.unsplash.com/photo-1704895376570-10be37f41bdb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3aGl0ZSUyMHBpbGx8ZW58MHx8fHwxNzcwMzQ1Mzc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "white pill"
+    },
+    {
+      "id": "pill-metformin",
+      "description": "Image of a Metformin pill.",
+      "imageUrl": "https://images.unsplash.com/photo-1698331382959-5b2323c16d7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxyb3VuZCUyMHBpbGx8ZW58MHx8fHwxNzcwMzQ1Mzc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "round pill"
+    },
+    {
+      "id": "pill-atorvastatin",
+      "description": "Image of an Atorvastatin pill.",
+      "imageUrl": "https://picsum.photos/seed/atorvastatin/200/200",
+      "imageHint": "oval pill"
+    },
+    {
+      "id": "pill-vitamin-d",
+      "description": "Image of a Vitamin D pill.",
+      "imageUrl": "https://images.unsplash.com/photo-1610021685640-830eff58c1dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx5ZWxsb3clMjBwaWxsfGVufDB8fHx8MTc3MDM0NTM3NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "yellow pill"
     }
   ]
 }

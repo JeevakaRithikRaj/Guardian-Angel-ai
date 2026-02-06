@@ -39,6 +39,7 @@ export type Reminder = {
   dosage: string;
   time: string;
   taken: boolean;
+  imageId: string;
 };
 
 export type Contact = {

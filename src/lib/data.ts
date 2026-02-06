@@ -46,12 +46,12 @@ export const vitals: Vitals = {
 };
 
 export const reminders: Reminder[] = [
-  { id: '1', medication: 'Lisinopril', dosage: '10mg', time: '08:00 AM', taken: true },
-  { id: '2', medication: 'Metformin', dosage: '500mg', time: '08:00 AM', taken: true },
-  { id: '3', medication: 'Atorvastatin', dosage: '20mg', time: '08:00 PM', taken: false },
-  { id: '4', medication: 'Vitamin D', dosage: '1000 IU', time: '08:00 PM', taken: false },
-  { id: '5', medication: 'Drink Water', dosage: '8 oz', time: '10:00 AM', taken: true },
-  { id: '6', medication: 'Walk', dosage: '15 min', time: '03:00 PM', taken: false },
+  { id: '1', medication: 'Lisinopril', dosage: '10mg', time: '08:00 AM', taken: true, imageId: 'pill-lisinopril' },
+  { id: '2', medication: 'Metformin', dosage: '500mg', time: '08:00 AM', taken: true, imageId: 'pill-metformin' },
+  { id: '3', medication: 'Atorvastatin', dosage: '20mg', time: '08:00 PM', taken: false, imageId: 'pill-atorvastatin' },
+  { id: '4', medication: 'Vitamin D', dosage: '1000 IU', time: '08:00 PM', taken: false, imageId: 'pill-vitamin-d' },
+  { id: '5', medication: 'Drink Water', dosage: '8 oz', time: '10:00 AM', taken: true, imageId: '' },
+  { id: '6', medication: 'Walk', dosage: '15 min', time: '03:00 PM', taken: false, imageId: '' },
 ];
 
 export const emergencyContacts: Contact[] = [
