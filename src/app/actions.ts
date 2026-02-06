@@ -18,7 +18,6 @@ export async function getHealthSummary(input: SummarizeHealthDataInput) {
     const { summary } = await summarizeHealthData(input);
     return { success: true, summary };
   } catch (error) {
-    console.error(error);
     return { success: false, error: 'Failed to generate health summary.' };
   }
 }
@@ -28,7 +27,6 @@ export async function getActivitySuggestions(input: GenerateActivitySuggestionsI
     const { suggestions } = await generateActivitySuggestions(input);
     return { success: true, suggestions };
   } catch (error) {
-    console.error(error);
     return { success: false, error: 'Failed to generate activity suggestions.' };
   }
 }
@@ -38,7 +36,6 @@ export async function getEmergencyAlert(input: GenerateEmergencyAlertMessageInpu
     const { alertMessage } = await generateEmergencyAlertMessage(input);
     return { success: true, alertMessage };
   } catch (error) {
-    console.error(error);
     return { success: false, error: 'Failed to generate emergency alert.' };
   }
 }
