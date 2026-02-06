@@ -37,7 +37,7 @@ export function AppSidebar() {
             </SidebarMenuButton>
           </SidebarMenuItem>
           <SidebarMenuItem>
-            <SidebarMenuButton href="#" isActive={pathname.startsWith('/patients')}>
+            <SidebarMenuButton href="/patients" isActive={pathname.startsWith('/patients')}>
               <Users />
               Patients
             </SidebarMenuButton>
