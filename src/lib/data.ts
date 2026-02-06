@@ -1,13 +1,20 @@
 import type { Patient, Vitals, Reminder, Contact } from '@/lib/types';
 
 export const patient: Patient = {
-  name: 'Eleanor Vance',
-  age: 82,
+  name: 'R. Kumar',
+  age: 72,
+  gender: 'Male',
+  condition: 'Diabetes, Mild Dementia',
+  bloodGroup: 'O+',
+  emergencyContact: {
+    relation: 'Son',
+    phone: '98765 43210',
+  },
   avatarId: 'patient-avatar',
-  id: 'EV-3024',
-  interests: 'Gardening, reading classic novels, listening to classical music',
-  physicalCapabilities: 'Can walk with a cane, has difficulty with stairs, experiences mild arthritis in hands.',
-  medicalConditions: 'Hypertension, Type 2 Diabetes',
+  id: 'RK-7201',
+  interests: 'Reading, listening to music',
+  physicalCapabilities: 'Can walk with assistance.',
+  medicalConditions: 'Diabetes, Hypertension, Mild Dementia',
 };
 
 export const vitals: Vitals = {

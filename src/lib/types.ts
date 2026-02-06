@@ -1,6 +1,13 @@
 export type Patient = {
   name: string;
   age: number;
+  gender: string;
+  condition: string;
+  bloodGroup: string;
+  emergencyContact: {
+    relation: string;
+    phone: string;
+  };
   avatarId: string;
   id: string;
   interests: string;
