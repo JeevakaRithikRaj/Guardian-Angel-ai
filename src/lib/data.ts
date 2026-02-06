@@ -1,4 +1,4 @@
-import type { Patient, Vitals, Reminder } from '@/lib/types';
+import type { Patient, Vitals, Reminder, Contact } from '@/lib/types';
 
 export const patient: Patient = {
   name: 'Eleanor Vance',
@@ -7,6 +7,7 @@ export const patient: Patient = {
   id: 'EV-3024',
   interests: 'Gardening, reading classic novels, listening to classical music',
   physicalCapabilities: 'Can walk with a cane, has difficulty with stairs, experiences mild arthritis in hands.',
+  medicalConditions: 'Hypertension, Type 2 Diabetes',
 };
 
 export const vitals: Vitals = {
@@ -44,4 +45,9 @@ export const reminders: Reminder[] = [
   { id: '4', medication: 'Vitamin D', dosage: '1000 IU', time: '08:00 PM', taken: false },
   { id: '5', medication: 'Drink Water', dosage: '8 oz', time: '10:00 AM', taken: true },
   { id: '6', medication: 'Walk', dosage: '15 min', time: '03:00 PM', taken: false },
+];
+
+export const emergencyContacts: Contact[] = [
+  { id: 'c1', name: 'Michael Vance', relation: 'Son', phone: '555-123-4567', avatarId: 'contact-1' },
+  { id: 'c2', name: 'Dr. Evelyn Reed', relation: 'Primary Doctor', phone: '555-987-6543', avatarId: 'contact-2' },
 ];

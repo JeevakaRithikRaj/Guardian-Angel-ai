@@ -14,9 +14,11 @@ import { Button } from './ui/button';
 import { Home, Settings, Users, HeartPulse, LogOut } from 'lucide-react';
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { usePathname } from 'next/navigation';
 
 export function AppSidebar() {
   const userAvatar = PlaceHolderImages.find(p => p.id === 'user-avatar');
+  const pathname = usePathname();
 
   return (
     <Sidebar>
@@ -29,19 +31,19 @@ export function AppSidebar() {
       <SidebarContent>
         <SidebarMenu>
           <SidebarMenuItem>
-            <SidebarMenuButton href="#" isActive>
+            <SidebarMenuButton href="/" isActive={pathname === '/'}>
               <Home />
               Dashboard
             </SidebarMenuButton>
           </SidebarMenuItem>
           <SidebarMenuItem>
-            <SidebarMenuButton href="#">
+            <SidebarMenuButton href="#" isActive={pathname.startsWith('/patients')}>
               <Users />
               Patients
             </SidebarMenuButton>
           </SidebarMenuItem>
           <SidebarMenuItem>
-            <SidebarMenuButton href="#">
+            <SidebarMenuButton href="/settings" isActive={pathname === '/settings'}>
               <Settings />
               Settings
             </SidebarMenuButton>

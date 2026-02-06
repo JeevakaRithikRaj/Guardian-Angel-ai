@@ -5,6 +5,7 @@ export type Patient = {
   id: string;
   interests: string;
   physicalCapabilities: string;
+  medicalConditions?: string;
 };
 
 export type HealthMetric = {
@@ -31,4 +32,12 @@ export type Reminder = {
   dosage: string;
   time: string;
   taken: boolean;
+};
+
+export type Contact = {
+  id: string;
+  name: string;
+  relation: string;
+  phone: string;
+  avatarId: string;
 };
